@@ -16,12 +16,13 @@ along with Medito App. If not, see <https://www.gnu.org/licenses/>.*/
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:Medito/network/auth.dart';
 import 'package:Medito/network/cache.dart';
 import 'package:Medito/utils/utils.dart';
 import 'package:http/http.dart';
 import 'package:pedantic/pedantic.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
+
+import 'auth.dart';
 
 //move this to network package later
 Future httpGet(String url,

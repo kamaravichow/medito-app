@@ -15,7 +15,6 @@ along with Medito App. If not, see <https://www.gnu.org/licenses/>.*/
 
 import 'dart:io';
 
-import 'package:Medito/network/auth.dart';
 import 'package:Medito/network/user/user_utils.dart';
 import 'package:Medito/utils/colors.dart';
 import 'package:cached_network_image/cached_network_image.dart';
@@ -24,6 +23,8 @@ import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+import '../network/auth.dart';
 
 Widget getNetworkImageWidget(String url,
     {Color svgColor, double startHeight = 0.0}) {

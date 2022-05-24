@@ -1,6 +1,6 @@
 import 'dart:io' as io;
 
-import 'package:Medito/network/auth.dart';
+// import 'package:Medito/network/auth.dart';
 import 'package:Medito/network/cache.dart';
 import 'package:Medito/network/http_get.dart';
 import 'package:Medito/network/user/user_response.dart';
@@ -12,6 +12,8 @@ import 'package:package_info/package_info.dart';
 import 'package:pedantic/pedantic.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../auth.dart';
 
 Future<bool> firstOpenOperations() async {
   var prefs = await SharedPreferences.getInstance();

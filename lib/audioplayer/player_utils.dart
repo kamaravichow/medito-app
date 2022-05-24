@@ -16,12 +16,13 @@ along with Medito App. If not, see <https://www.gnu.org/licenses/>.*/
 import 'dart:async';
 import 'dart:io';
 
-import 'package:Medito/network/auth.dart';
 import 'package:Medito/network/session_options/session_opts.dart';
 import 'package:Medito/utils/shared_preferences_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
+
+import '../network/auth.dart';
 
 var downloadListener = ValueNotifier<double>(0);
 var bgDownloadListener = ValueNotifier<double>(0);

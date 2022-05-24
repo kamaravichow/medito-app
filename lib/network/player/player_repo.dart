@@ -14,13 +14,13 @@ You should have received a copy of the Affero GNU General Public License
 along with Medito App. If not, see <https://www.gnu.org/licenses/>.*/
 
 import 'package:Medito/audioplayer/media_lib.dart';
-import 'package:Medito/network/auth.dart';
 import 'package:Medito/network/http_get.dart';
 import 'package:Medito/network/player/audio_complete_copy_response.dart';
 import 'package:Medito/network/session_options/background_sounds.dart';
 import 'package:audio_service/audio_service.dart';
 import 'package:pedantic/pedantic.dart';
 
+import '../auth.dart';
 import '../user/user_utils.dart';
 
 class PlayerRepository {

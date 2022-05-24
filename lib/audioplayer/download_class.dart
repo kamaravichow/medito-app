@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:Medito/network/auth.dart';
+// import 'package:Medito/network/auth.dart';
 import 'package:Medito/network/downloads/downloads_bloc.dart';
 import 'package:Medito/network/session_options/session_opts.dart';
 import 'package:audio_service/audio_service.dart';
@@ -9,6 +9,7 @@ import 'package:http/http.dart' as http;
 import 'package:pedantic/pedantic.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 
+import '../network/auth.dart';
 import 'player_utils.dart';
 
 class _Download {

@@ -14,8 +14,9 @@ You should have received a copy of the Affero GNU General Public License
 along with Medito App. If not, see <https://www.gnu.org/licenses/>.*/
 
 import 'package:Medito/network/home/menu_response.dart';
-import 'package:Medito/network/auth.dart';
 import 'package:Medito/network/http_get.dart';
+
+import '../auth.dart';
 
 class HomeRepo {
   final _ext = 'items/menu';

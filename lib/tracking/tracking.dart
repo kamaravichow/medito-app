@@ -14,11 +14,12 @@ You should have received a copy of the Affero GNU General Public License
 along with Medito App. If not, see <https://www.gnu.org/licenses/>.*/
 import 'package:Medito/network/folder/folder_response.dart';
 import 'package:Medito/network/user/user_utils.dart';
-import 'package:Medito/network/auth.dart';
 import 'package:Medito/network/http_get.dart';
 import 'package:flutter/foundation.dart';
 import 'package:package_info/package_info.dart';
 import 'package:pedantic/pedantic.dart';
+
+import '../network/auth.dart';
 
 class Tracking {
   static const String FOLDER_TAPPED = 'folder_tapped';
